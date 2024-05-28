@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
-const API_URL = `http://localhost:5000/bst/api/v1`;
+const API_URL = `https://myhpi.onrender.com/bst/api/v1`;
 
 const AppContext = React.createContext();
 
