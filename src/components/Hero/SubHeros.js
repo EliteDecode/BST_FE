@@ -37,15 +37,23 @@ const SubHeros = ({ section }) => {
                 fontSize: "50px",
                 fontFamily: "Raleway",
 
-                lineHeight: "2.8rem",
+                lineHeight: "3.2rem",
 
                 "@media (max-width: 567px)": {
                   fontSize: "40px",
-                  lineHeight: "2.4rem",
+                  lineHeight: "2.6rem",
                 },
               }}>
-              <span>Babtech</span> School of Tech
-              <span className="border-b-8 pb-2 border-[#c39a4b]">nology</span>
+              {section.includes("Advanced Diploma Programs") ? (
+                "Software Engineering | Data Science & AI | Cyber Security."
+              ) : (
+                <>
+                  <span>Babtech</span> School of Tech
+                  <span className="border-b-8 pb-2 border-[#c39a4b]">
+                    nology
+                  </span>
+                </>
+              )}
             </Typography>
           </Box>
         </Box>

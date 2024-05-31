@@ -1,8 +1,6 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 * {
   margin: 0;
@@ -99,8 +97,8 @@ Global Styles=
   background-color: #ded4c2bc;
 }
 
-.courrssee{
-  font-family:handitc ;
+.courrssee {
+  font-family: handitc;
 }
 
 .custom-red {
@@ -481,7 +479,8 @@ Stripe Styles=
 /* 
 admissions */
 
-.admission-section {
+.admission-section,
+.AdvancedDiplomaPrograms-section {
   background: url("/src/assets/about.jpg");
   background-size: cover;
   padding: "15% 0%";
@@ -891,20 +890,12 @@ svg {
   fill: #000066;
 }
 
-.hand-font{
-  font-family: 'Bradley Hand', sans-serif;
-                                                
+.hand-font {
+  font-family: "Bradley Hand", sans-serif;
 }
-.hand1{
-  font-family: 'Bradley Hand', sans-serif;
+.hand1 {
+  font-family: "Bradley Hand", sans-serif;
 }
-
-
-
-
-
-
-
 
 /* ///////////// */
 /* 

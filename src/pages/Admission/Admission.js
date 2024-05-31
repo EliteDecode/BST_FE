@@ -20,7 +20,7 @@ const Admission = () => {
     <div>
       <Navbar />
       <div onMouseOver={closeSubmenu}>
-        <SubHeros section="Admission" />
+        <SubHeros section="Advanced Diploma Programs" />
         <AdmissionPage />
         <Subscribe />
         <NavFooter />
