@@ -522,9 +522,9 @@ export const coursesPartitions = [
     course: "DIPLOMA COURSES",
     description:
       "Get ready for the century of data and machine intelligence! Our curriculum covers every aspects of the gigantic Data Science ecosystem. Learn Advance Excel, Power BI, SQL, Python & Machine Learning.",
-    duration: "6 months",
+    duration: "1 year",
     icon: <Deng />,
-    price: "N180,000 ",
+    price: "N550,000",
     courseDetails: <DataScience />,
   },
   {
@@ -533,9 +533,9 @@ export const coursesPartitions = [
     course: "DIPLOMA COURSES",
     description:
       "Full Stack Development Python, GIT/GITHUB Cloud Infrastructure Project Management (Agile Methodology)",
-    duration: "9 months",
+    duration: "1 year",
     icon: <IconsSoft />,
-    price: "N300,000 ",
+    price: "N550,000 ",
     courseDetails: <SoftwareEng />,
   },
   {
@@ -555,9 +555,9 @@ export const coursesPartitions = [
     course: "DIPLOMA COURSES",
     description:
       "Gain hands-on experience in automating workflows, deploying applications, and ensuring the reliability of modern tech systems. Master Azure/AWS and play a pivotal role in IT operations.",
-    duration: "6 months",
+    duration: "1 year",
     icon: <Cyber />,
-    price: "N350,000 ($520)",
+    price: "N550,000",
     courseDetails: <CyberSecurity />,
   },
   {

@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../general/Title";
 import { Box, Typography } from "@mui/material";
 import { Button } from "antd";
+import { Link } from "react-router-dom";
 
 const SoftwareEng = () => {
   const whatYouLearnSoftware = [
@@ -116,9 +117,11 @@ const SoftwareEng = () => {
           </Box>
         ))}
       </Box>
-      <Button className="mt-5 text-white bg-[#000066]">
-        Click Here to Apply Now
-      </Button>
+      <Link to="/admission">
+        <Button className="mt-5 text-white bg-[#000066]">
+          Click Here to Apply Now
+        </Button>
+      </Link>
     </div>
   );
 };

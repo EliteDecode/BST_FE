@@ -49,7 +49,7 @@ const TopBar = () => {
                   fontSize: "9px",
                   fontWeight: "bold",
                 }}>
-                Ajah, Lagos , Nigeria
+                Lagos , Nigeria
               </Typography>
             </Box>
             <Box className="flex items-center">
@@ -62,7 +62,7 @@ const TopBar = () => {
                   fontSize: "9px",
                   fontWeight: "bold",
                 }}>
-                enquiries@bst.edu.ng
+                info@babtechcomputers.com
               </Typography>
             </Box>
             <Box className="flex items-center sm:mt-0 mt-1 ">
@@ -75,7 +75,7 @@ const TopBar = () => {
                   fontSize: "9px",
                   fontWeight: "bold",
                 }}>
-                +234-(901)-070-7383
+                +234-816-817-1837
               </Typography>
             </Box>
           </Box>

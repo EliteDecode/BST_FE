@@ -1,5 +1,11 @@
 import { Box, Grid } from "@mui/material";
-import { BsDribbble, BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import {
+  BsDribbble,
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+  BsTwitter,
+} from "react-icons/bs";
 
 import React from "react";
 import logo from "../../assets/logoblue.png";
@@ -67,21 +73,6 @@ const NavFooter = () => {
                     <Typography
                       variant="h4"
                       sx={{
-                        fontSize: "20px",
-
-                        fontSize: "22px",
-
-                        fontWeight: "bold",
-                        opacity: "0.8",
-                        "@media (max-width: 567px)": {
-                          fontSize: "12px",
-                        },
-                      }}>
-                      Ajah
-                    </Typography>
-                    <Typography
-                      variant="h4"
-                      sx={{
                         fontSize: "12px",
                         fontWeight: "bold",
                         opacity: "0.6",
@@ -104,7 +95,7 @@ const NavFooter = () => {
                           fontSize: "14px",
                         },
                       }}>
-                      +234-805-797-5157
+                      +234-816-817-1837
                     </Typography>
                     <Typography
                       variant="h4"
@@ -116,7 +107,7 @@ const NavFooter = () => {
                           fontSize: "14px",
                         },
                       }}>
-                      info@bst.com.ng
+                      info@babtechcomputers.com
                     </Typography>
                   </Box>
 
@@ -144,7 +135,7 @@ const NavFooter = () => {
                           fontSize: "14px",
                         },
                       }}>
-                      +234-805-797-5157
+                      +234-816-817-1837
                     </Typography>
                     <Typography
                       variant="h4"
@@ -159,7 +150,7 @@ const NavFooter = () => {
                           fontSize: "14px",
                         },
                       }}>
-                      info@bst.com.ng
+                      info@babtechcomputers.com
                     </Typography>
                   </Box>
                 </Box>
@@ -391,25 +382,25 @@ const NavFooter = () => {
           />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon
-              href="google.com"
+              href="https://www.facebook.com/babtechcomputers"
               className="text-white"
               icon={BsFacebook}
             />
             <Footer.Icon
-              href="google.com"
+              href="https://www.instagram.com/babtech_computers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               className="text-white"
               icon={BsInstagram}
             />
             <Footer.Icon
-              href="google.com"
+              href="https://x.com/babtechc?s=21&t=Isjtu9qnWa0IJ63T5YTWBA"
               className="text-white"
               icon={BsTwitter}
             />
 
             <Footer.Icon
-              href="google.com"
+              href="https://www.linkedin.com/company/babtech-computers/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BDPllwEeVTv%2Bn5iTUAGdd4g%3D%3D"
               className="text-white"
-              icon={BsDribbble}
+              icon={BsLinkedin}
             />
           </div>
         </div>

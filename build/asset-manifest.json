@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5d8aa068.css",
-    "main.js": "/static/js/main.c605d1f7.js",
+    "main.js": "/static/js/main.6193ede4.js",
     "static/media/gan2.jpg": "/static/media/gan2.fa8722b75039f8f3e4d8.jpg",
     "static/media/college.JPG": "/static/media/college.29882668ba397744c4fb.JPG",
     "static/media/babtech2.png": "/static/media/babtech2.f6cb86d63b6701dcce17.png",
@@ -73,10 +73,10 @@
     "static/media/idshZQDFmY_logos.jpeg": "/static/media/idshZQDFmY_logos.44551a9c98f41426493b.jpeg",
     "index.html": "/index.html",
     "main.5d8aa068.css.map": "/static/css/main.5d8aa068.css.map",
-    "main.c605d1f7.js.map": "/static/js/main.c605d1f7.js.map"
+    "main.6193ede4.js.map": "/static/js/main.6193ede4.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8aa068.css",
-    "static/js/main.c605d1f7.js"
+    "static/js/main.6193ede4.js"
   ]
 }

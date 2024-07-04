@@ -2,68 +2,69 @@ import React from "react";
 import Title from "../general/Title";
 import { Box, Typography } from "@mui/material";
 import { Button } from "antd";
+import { Link } from "react-router-dom";
 
 const DataScience = () => {
   const dataScienceTopics = [
     {
-      index: 1,
+      index: "01",
       title: "Fundamentals of Data Science",
       description:
         "Gain a solid foundation in data analysis, statistics, and probability to understand and interpret data effectively.",
     },
     {
-      index: 2,
+      index: "02",
       title: "Programming Skills",
       description:
         "Master programming languages such as Python and R, essential for data manipulation, analysis, and visualization.",
     },
     {
-      index: 3,
-      title: "Machine Learning Algorithms",
-      description:
-        "Learn various machine learning techniques, including supervised and unsupervised learning, to build predictive models.",
-    },
-    {
-      index: 4,
+      index: "03",
       title: "Data Visualization",
       description:
         "Develop skills to create compelling data visualizations using tools like Matplotlib, Seaborn, and Tableau to communicate insights effectively.",
     },
     {
-      index: 5,
-      title: "Big Data Technologies",
-      description:
-        "Explore big data frameworks like Hadoop and Spark to handle and process large datasets efficiently.",
-    },
-    {
-      index: 6,
-      title: "AI and Deep Learning",
-      description:
-        "Dive into advanced topics like neural networks, natural language processing, and computer vision using frameworks like TensorFlow and PyTorch.",
-    },
-    {
-      index: 7,
+      index: "04",
       title: "Data Wrangling",
       description:
         "Acquire techniques for cleaning, transforming, and enriching data to prepare it for analysis.",
     },
     {
-      index: 8,
+      index: "05",
       title: "Statistical Modeling",
       description:
         "Learn to build and evaluate statistical models to make data-driven decisions.",
     },
     {
-      index: 9,
-      title: "Real-World Applications",
+      index: "06",
+      title: "Machine Learning Algorithms",
       description:
-        "Work on practical projects and case studies to apply your knowledge to real-world scenarios.",
+        "Learn various machine learning techniques, including supervised and unsupervised learning, to build predictive models.",
     },
     {
-      index: 10,
+      index: "07",
+      title: "Big Data Technologies",
+      description:
+        "Explore big data frameworks like Hadoop and Spark to handle and process large datasets efficiently.",
+    },
+    {
+      index: "08",
+      title: "AI and Deep Learning",
+      description:
+        "Dive into advanced topics like neural networks, natural language processing, and computer vision using frameworks like TensorFlow and PyTorch.",
+    },
+    {
+      index: "09",
       title: "Ethics and Data Privacy",
       description:
         "Understand the ethical considerations and best practices for data privacy and security in data science and AI.",
+    },
+    {
+      index: "10",
+      title: "Real-World Applications",
+      description:
+        "Work on practical projects and case studies to apply your knowledge to real-world scenarios.",
     },
   ];
 
@@ -126,7 +127,7 @@ const DataScience = () => {
             <Box className="flex items-center space-x-2">
               <Typography
                 sx={{ fontWeight: "bold", color: "#c39a4b", fontSize: "30px" }}>
-                0{index + 1}.
+                {item?.index}.
               </Typography>
               <Typography sx={{ fontFamily: "Calistoga" }}>
                 {item.title}
@@ -144,9 +145,11 @@ const DataScience = () => {
           </Box>
         ))}
       </Box>
-      <Button className="mt-5 text-white bg-[#000066]">
-        Click Here to Apply Now
-      </Button>
+      <Link to="/admission">
+        <Button className="mt-5 text-white bg-[#000066]">
+          Click Here to Apply Now
+        </Button>
+      </Link>
     </div>
   );
 };
